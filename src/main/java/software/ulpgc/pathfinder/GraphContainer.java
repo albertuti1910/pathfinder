@@ -1,11 +1,11 @@
 package software.ulpgc.pathfinder;
 
+import java.util.List;
+
 import org.jgrapht.Graph;
 import org.jgrapht.GraphPath;
 import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultEdge;
-
-import java.util.List;
 
 public class GraphContainer {
 	private final Graph<String, DefaultEdge> graph;
